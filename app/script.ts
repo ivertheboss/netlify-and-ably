@@ -14,7 +14,7 @@ import * as Ably from "ably/promises";
         document.getElementById("response").innerHTML += "<br />" + JSON.stringify(msg);
     });
 
-    channel.publish("hello-world-message", { message: "big penis 123" });
+    channel.publish("penis penis penis", { message: "big penis 123" });
 })();
 
 export { };
